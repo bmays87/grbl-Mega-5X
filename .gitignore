@@ -6,6 +6,12 @@
 *.d
 .grbl*
 .vscode
+.wsuo
+*.lock
+*.sqlite
+VSWorkspaceState.json
+*.vsidx
+
 platformio.ini
 
 README.md
