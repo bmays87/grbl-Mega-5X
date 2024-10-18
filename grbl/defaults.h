@@ -35,15 +35,15 @@
     // CNC milling or laser cutting. Unlike Marlin, these defaults are only applied when the 
     // EEPROM is explicitly wiped, either by a `$RST=*` command or Grbl detecting a settings
     // version type change (not frequent).
-    #define MICROSTEPS_AXIS1 1     // Microstepping = 1
+    #define MICROSTEPS_AXIS1 16     // Microstepping = 1
     #define STEP_REVS_AXIS1 200    // 200 steps per rotation
-    #define UNIT_PER_REV_AXIS1 5.0 // 5mm
+    #define UNIT_PER_REV_AXIS1 60.0 // 5mm
     #define DEFAULT_AXIS1_STEPS_PER_UNIT (MICROSTEPS_AXIS1*STEP_REVS_AXIS1/UNIT_PER_REV_AXIS1) // 400
-    #define MICROSTEPS_AXIS2 1     // Microstepping = 1 pas
+    #define MICROSTEPS_AXIS2 8     // Microstepping = 1 pas
     #define STEP_REVS_AXIS2 200    // 200 steps per rotation
     #define UNIT_PER_REV_AXIS2 5.0 // 5mm
     #define DEFAULT_AXIS2_STEPS_PER_UNIT (MICROSTEPS_AXIS2*STEP_REVS_AXIS2/UNIT_PER_REV_AXIS2)
-    #define MICROSTEPS_AXIS3 1     // Microstepping = 1
+    #define MICROSTEPS_AXIS3 8     // Microstepping = 1
     #define STEP_REVS_AXIS3 200    // 200 steps per rotation
     #define UNIT_PER_REV_AXIS3 5.0 // 2mm
     #define DEFAULT_AXIS3_STEPS_PER_UNIT (MICROSTEPS_AXIS3*STEP_REVS_AXIS3/UNIT_PER_REV_AXIS3)
